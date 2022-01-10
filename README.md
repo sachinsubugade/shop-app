@@ -1,2 +1,2 @@
 # shop-app
-## Creating this project for learning purpose.
+## Creating this react native project with expo for learning purpose.
