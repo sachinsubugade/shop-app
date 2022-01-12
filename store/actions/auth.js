@@ -69,6 +69,6 @@ export const login = (email, password) => {
 
     const resData = await response.json();
     console.log(resData);
-    dispatch({ type: LOGIN, token: resData.idToken, userId: resData.loacalId });
+    dispatch({ type: LOGIN, token: resData.idToken, userId: resData.localId });
   };
 };
