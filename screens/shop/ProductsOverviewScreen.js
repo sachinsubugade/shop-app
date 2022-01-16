@@ -123,7 +123,7 @@ const ProductsOverviewScreen = (props) => {
   );
 };
 
-ProductsOverviewScreen.navigationOptions = (navData) => {
+export const overviewScreenOptions = (navData) => {
   return {
     headerTitle: "All Products ",
     headerLeft: () => (
