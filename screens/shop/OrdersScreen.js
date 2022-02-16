@@ -30,7 +30,7 @@ const OrdersScreen = (props) => {
 
   if (isLoading) {
     return (
-      <View style={StyleSheet.centered}>
+      <View style={styles.centered}>
         <ActivityIndicator size="large" color={Colors.primary} />
       </View>
     );
